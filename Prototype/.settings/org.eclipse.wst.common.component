@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Prototype">
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module archiveName="PrototypeEJB.jar" deploy-path="/" handle="module:/resource/PrototypeEJB/PrototypeEJB">
+            <dependent-object>EjbModule_1333963350082</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PrototypeWeb.war" deploy-path="/" handle="module:/resource/PrototypeWeb/PrototypeWeb">
+            <dependent-object>WebModule_1333963350145</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
